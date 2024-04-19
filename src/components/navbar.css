@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    padding: auto;
+  color: white;
+    justify-content: initial;
+    align-items: center;
+    list-style-type: none;
+ width: 186%;
+ gap: 4%;
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+}
+
+div.cart-logo a {
+    color: white;
+    text-decoration: none;
+}
+

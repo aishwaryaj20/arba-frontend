@@ -1,0 +1,18 @@
+.modal{
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.modal-buttons{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+.log{
+    width: 100px;
+    margin-right: -165%;
+}
