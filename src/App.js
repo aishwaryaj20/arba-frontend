@@ -3,9 +3,9 @@ import Signup from "./components/Signup";
 import Login from "./components/Login";
 import Dashboard from "./components/DashBoard";
 import { BrowserRouter,Route,Routes,Navigate } from 'react-router-dom';
-//import ProductList from './components/ProductList';
+
 import './App.css'; 
-//import Product from './components/Product';
+
 const App = () => {
 
 

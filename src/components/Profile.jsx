@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import TermsConditionsDialog from './TermsConditionsDialog'; // Import the TermsConditionsDialog component
+import TermsConditionsDialog from './TermsConditionsDialog'; 
 
 const Profile = () => {
   const [user, setUser] = useState({
-    image: '', // Assuming you have an image URL for the user's image
-    username: '', // User's username
-    email: '', // User's email
+    image: '', 
+    username: '', 
+    email: '', 
   });
-  const [showTermsConditions, setShowTermsConditions] = useState(false); // State to control the visibility of terms and conditions dialog
+  const [showTermsConditions, setShowTermsConditions] = useState(false); 
 
-  // Function to handle accept terms and conditions
+  
   const handleAcceptTerms = () => {
     localStorage.setItem('termsAccepted', 'true');
     setShowTermsConditions(false);
   };
 
-  // Function to handle cancel terms and conditions
+ 
   const handleCancelTerms = () => {
     setShowTermsConditions(false);
   };

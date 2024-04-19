@@ -17,7 +17,7 @@ const dummyProducts = [
       category: "Category 2",
       image: "image_url_2.jpg"
     },
-    // Add more dummy product objects as needed
+   
   ];
   
   export default dummyProducts;

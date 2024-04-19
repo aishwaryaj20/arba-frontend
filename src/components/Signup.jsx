@@ -30,7 +30,7 @@ const Signup = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5850/register",
+        "https://arba-backend-nsiu.onrender.com/register",
         formData
       );
 

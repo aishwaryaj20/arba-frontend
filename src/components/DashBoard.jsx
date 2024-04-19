@@ -31,7 +31,7 @@ const Dashboard = () => {
   const handleLogout = async () => {
     if (localStorage.getItem('authToken') !== null) {
       try {
-        const response = await fetch('http://localhost:5850/logout', {
+        const response = await fetch('https://arba-backend-nsiu.onrender.com/logout', {
           method: 'POST',
           headers: {
             'Authorization': `Bearer ${localStorage.getItem('authToken')}`,
